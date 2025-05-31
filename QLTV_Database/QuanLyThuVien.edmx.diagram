@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ac9feca2f6964d93800d7d87892b7b83" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyThuVienModel.ChiTietDatLichMuon" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.ChiTietPhieuMuon" Width="1.5" PointX="5.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.ChucNang" Width="1.5" PointX="3" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.DatLichMuon" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.DocGia" Width="1.5" PointX="0.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.LienHe" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.NguoiDung" Width="1.5" PointX="3" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.NhaXuatBan" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.PhanHoi" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.PhanQuyen" Width="1.5" PointX="5.25" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.PhieuMuon" Width="1.5" PointX="3" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.Sach" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.TacGia" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.TheLoai" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyThuVienModel.ViTri" Width="1.5" PointX="0.75" PointY="11.375" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__ChiTietDa__MaLic__6DCC4D03" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__ChiTietDa__MaSac__6EC0713C" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__ChiTietPh__MaPhi__18B6AB08" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__ChiTietPh__MaSac__19AACF41" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__PhanQuyen__MaChu__10216507" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__DatLichMu__MaDoc__69FBBC1F" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__NguoiDung__MaDoc__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__PhanHoi__MaDocGi__489AC854" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__PhieuMuon__MaDoc__40058253" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__PhanQuyen__TenDa__0F2D40CE" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_Sach_NhaXuatBan" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK__PhanHoi__MaSach__498EEC8D" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_Sach_TacGia" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_Sach_TheLoai" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyThuVienModel.FK_Sach_ViTri" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
